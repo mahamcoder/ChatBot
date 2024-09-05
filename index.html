@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+
+<body >
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlined">
+            <i style="font-size: 30px;" class="ri-chat-smile-3-fill"></i>
+         </span>
+         <span class="material-symbols-outlined">
+            <i style="font-size: 20px;" class="ri-close-large-line"></i>
+         </span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>ChatBot</h2>
+            <span class="close-btn material-symbols-outlined">
+                <i class="ri-close-large-line"></i>
+             </span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">
+                    <i style="font-size: 35px;" class="ri-gemini-fill"></i>
+                </span>
+                <p>Hi there👋 <br> How can I help you today?</p>
+            </li>
+            
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message...." required></textarea>
+            <span id="send-btn" class="material-symbols-outlined"><i class="ri-send-plane-2-fill"></i></span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
